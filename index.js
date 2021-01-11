@@ -1,1 +1,1 @@
-exports['ads-config'] = "./packages/config/dist/index.js"; 
+exports['ads-config'] = require("./packages/config/dist/index.js"); 
