@@ -1,0 +1,30 @@
+{
+  "name": "@financial-times/ads-config",
+  "version": "0.0.0",
+  "description": "A library for holding the configuration properties for an FT.ads.gpt instance",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "dev": "NODE_ENV=development rollup -c rollup.config.dev.js --watch",
+    "build": "npm run clean && rollup -c",
+    "test": "karma start karma.conf.js --single-run"
+  },
+  "keywords": [],
+  "author": "Financial Times",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "karma": "^5.2.3",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-qunit": "^4.1.1",
+    "karma-rollup": "^1.0.1",
+    "qunit": "^2.13.0",
+    "rollup": "^2.36.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-serve": "^1.1.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,12 @@
+{
+  "name": "advertising-tools",
+  "description": "",
+  "main": "./index.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
